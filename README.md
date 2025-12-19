@@ -1,3 +1,13 @@
+Aplicación deportiva para guardar rutas de movimiento andando o corriendo.
+
+Frontend: Android usando Java desarrollado en Android Studio
+
+Backend: Python desarrollado en Visual Studio Code
+
+Base de datos: SQLite en Android / PostgreSQL en Servidor
+
+
+
 Guía para Colaboradores - MoveON
 
 1. Clonar el repositorio
@@ -5,7 +15,7 @@ Guía para Colaboradores - MoveON
 Abre una terminal en tu carpeta del proyecto y ejecuta: `git clone https://github.com/Galen222/MoveOn.git`
 
 
-2. Abrir en Android Studio
+2. Frontend en Android Studio
 
 2.1. Abre Android Studio.
 
@@ -28,3 +38,7 @@ Para evitar conflictos, sigue siempre este orden:
 4. Configuración del JDK
 
 Si te sale un aviso de JDK, ve a `File > Settings > Build, Execution, Deployment > Build Tools > Gradle` y asegúrate de que el Gradle JDK sea el mismo que el de tu sistema (recomendado JDK 21).
+
+5. Backend en Visual Studio Code
+
+6. 

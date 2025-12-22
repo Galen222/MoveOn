@@ -1,4 +1,4 @@
-MoveON - Aplicación Deportiva deportiva para guardar rutas de movimiento andando o corriendo.
+MoveON - Aplicación deportiva para guardar rutas de movimiento andando o corriendo.
 
 Frontend: Android usando Java desarrollado en Android Studio.
 

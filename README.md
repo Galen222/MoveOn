@@ -1,44 +1,55 @@
-Aplicación deportiva para guardar rutas de movimiento andando o corriendo.
+MoveON - Aplicación Deportiva deportiva para guardar rutas de movimiento andando o corriendo.
 
-Frontend: Android usando Java desarrollado en Android Studio
+Frontend: Android usando Java desarrollado en Android Studio.
 
-Backend: Python desarrollado en Visual Studio Code
+Backend: Python desarrollado en Visual Studio Code (FastAPI).
 
-Base de datos: SQLite en Android / PostgreSQL en Servidor
+Base de Datos: SQLite en Android / PostgreSQL en Servidor.
 
 
-
-Guía para Colaboradores - MoveON
+🚀 Guía para Colaboradores
 
 1. Clonar el repositorio
+Abre una terminal en tu carpeta de proyectos y ejecuta: git clone https://github.com/Galen222/MoveOn.git y después cd MoveOn
 
-Abre una terminal en tu carpeta del proyecto y ejecuta: `git clone https://github.com/Galen222/MoveOn.git`
+2. Frontend (Android Studio)
 
+Abre Android Studio.
 
-2. Frontend en Android Studio
+Selecciona Open.
 
-2.1. Abre Android Studio.
+Navega hasta MoveOn/android-app/ y abre esa carpeta.
 
-2.2 Selecciona Open.
+Configuración del JDK: Si sale un aviso de JDK, ve a File > Settings > Build, Execution, Deployment > Build Tools > Gradle y asegúrate de que el Gradle JDK sea el JDK 21.
 
-2.3. Navega hasta `MoveOn/android-app/` y abre esa carpeta.
+3. Backend (Visual Studio Code)
 
+Abre Visual Studio Code.
 
-3. Flujo de trabajo (Git)
+Selecciona File > Open Folder... y elige la carpeta MoveOn/backend/.
 
-Para evitar conflictos, sigue siempre este orden:
+Crear Entorno Virtual: Abre la terminal de VS Code y ejecuta: python -m venv venv
 
-3.1. PULL: Antes de empezar, haz clic en el icono de la flecha azul (Update Project) para descargar cambios de tus compañeros.
+Activar Entorno:
 
-3.2. COMMIT: Cuando termines un cambio, haz clic en el check verde (Commit), selecciona tus archivos y escribe qué has hecho.
+Windows: .\venv\Scripts\activate
 
-3.3. PUSH: Envía tus cambios a GitHub haciendo clic en la flecha verde (Push).
+Mac/Linux: source venv/bin/activate
 
+Instalar Dependencias: pip install -r requirements.txt
 
-4. Configuración del JDK
+Configurar Intérprete: Pulsa Ctrl + Shift + P, escribe "Python: Select Interpreter" y elige el que indica ('venv': venv).
 
-Si te sale un aviso de JDK, ve a `File > Settings > Build, Execution, Deployment > Build Tools > Gradle` y asegúrate de que el Gradle JDK sea el mismo que el de tu sistema (recomendado JDK 21).
+4. Flujo de trabajo (Git)
 
-5. Backend en Visual Studio Code
+Para evitar conflictos, sigue siempre este orden tanto en Android Studio como en VS Code:
 
-6. 
+PULL: Antes de empezar, descarga los cambios de tus compañeros (Flecha azul en Android Studio / git pull en terminal).
+
+COMMIT: Cuando termines un cambio, guarda tus avances con un mensaje descriptivo (Check verde en Android Studio / Icono de Source Control en VS Code).
+
+PUSH: Envía tus cambios a GitHub (Flecha verde en Android Studio / git push en terminal).
+
+5. Ejecución del Servidor Backend
+
+Para probar la API localmente, con el entorno venv activo en la carpeta backend, ejecuta: uvicorn main:app --reload

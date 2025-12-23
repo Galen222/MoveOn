@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MoveOn"
+rootProject.name = "Loginapp"
 include(":app")
  

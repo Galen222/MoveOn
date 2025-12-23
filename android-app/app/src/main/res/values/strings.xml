@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">MoveOn</string>
+    <string name="app_name">Loginapp</string>
+    <string name="Usuario">Escriba su correo\n</string>
+    <string name="password">Contraseña</string>
+    <string name="Registrar">Registrar</string>
+    <string name="Login">Inicia Sesión</string>
+    <string name="title_activity_inicio">INICIO</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ImagenInicio">imagen de inicio\n</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="bienvenido">"Bienvenido!"</string>
+    <string name="usuario_invalido">Usuario inválido</string>
+    <string name="contraseña_invalida">Contraseña debe contener más de 5 carácteres</string>
+    <string name="login_fallo">"Inicio sesión fallido"</string>
+    <string name="BotonLogin">Iniciar Sesión</string>
+    <string name="Contraseña">Escriba su contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="INICIO">INICIO-MAPAS-RUTAS-GPS</string>
+    <string name="PERFIL">PERFIL-ESTADÍSTICAS-GRÁFICOS</string>
+    <string name="CONFIGURACION">CONFIGURACIÓN</string>
+
 </resources>
